@@ -4,7 +4,7 @@ machine:
 
 branches:
   only:
-    - master
+    - dmp.fabric8.io
 
 # Dependency resolution happens during `mvn install`. Seem to be broken on some deps
 dependencies:
@@ -18,7 +18,7 @@ general:
 
 deployment:
   website:
-    branch: master
+    branch: dmp.fabric8.io
     owner: fabric8io
     commands:
       - git config --global user.email "circleci@fabric8.io"

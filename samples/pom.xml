@@ -28,7 +28,7 @@
 
   <!-- Should this reference the outer directory as a parent pom instead?  -->
   <properties>
-    <docker.maven.plugin.version>0.19-SNAPSHOT</docker.maven.plugin.version>
+    <docker.maven.plugin.version>0.18-SNAPSHOT</docker.maven.plugin.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
