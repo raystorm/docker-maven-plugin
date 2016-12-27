@@ -3,13 +3,17 @@ package io.fabric8.maven.docker.service;
 
 import java.util.HashMap;
 import java.util.Map;
+
 import io.fabric8.maven.docker.access.DockerAccess;
 import io.fabric8.maven.docker.access.VolumeCreateConfig;
 import io.fabric8.maven.docker.config.VolumeConfiguration;
-import io.fabric8.maven.docker.util.Logger;
 
+import mockit.Delegate;
 import mockit.Expectations;
 import mockit.Mocked;
+
+import org.json.JSONObject;
+import org.skyscreamer.jsonassert.JSONParser;
 
 import org.hamcrest.core.Is;
 import org.junit.Before;
